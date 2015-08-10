@@ -1,8 +1,6 @@
-using System;
-
-namespace Tennis
+namespace TennisRefactoringKata
 {
-  public class TennisGame2 : TennisGame
+  public class TennisGame2 : ITennisGame
   {
     public int P1point = 0;
     public int P2point = 0;

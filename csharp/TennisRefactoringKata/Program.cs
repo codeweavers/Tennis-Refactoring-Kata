@@ -1,8 +1,8 @@
 using System;
 
-namespace Tennis
+namespace TennisRefactoringKata
 {
-	class MainClass
+	class Program
 	{
 		public static void Main (string[] args)
 		{

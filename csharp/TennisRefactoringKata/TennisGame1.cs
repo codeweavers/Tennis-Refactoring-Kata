@@ -1,9 +1,8 @@
 using System;
-using NUnit.Framework;
 
-namespace Tennis
+namespace TennisRefactoringKata
 {
-  class TennisGame1 : TennisGame
+  public class TennisGame1 : ITennisGame
   {
     private int m_score1 = 0;
     private int m_score2 = 0;
